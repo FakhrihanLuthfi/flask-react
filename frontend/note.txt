@@ -1,0 +1,36 @@
+
+🧠 Teori Form Handling & Validation
+
+ 1. Form Handling
+
+Adalah proses:
+
+ Menyimpan data input user (dengan `useState`)
+ Menangani perubahan input (`onChange`)
+ Menangani pengiriman form (`onSubmit`)
+
+📌 Tujuannya: mengontrol semua data form di dalam React, bukan membiarkan browser menangani sendiri.
+
+ 2. Validation
+
+Adalah proses:
+
+ Memastikan input user benar dan lengkap sebelum dikirim.
+ Menampilkan error message jika ada yang salah.
+
+📌 Tujuannya: melindungi aplikasi dari data kosong atau tidak valid, serta membantu user memperbaiki kesalahan.
+
+ 🔍 Analogi Sederhana
+
+ Bayangkan kamu mengisi formulir pendaftaran di meja resepsionis.
+
+ 📝 Kamu isi nama, email, dan password.
+ 👩‍💼 Petugas akan cek:
+
+   Apakah semua kolom sudah diisi?
+   Apakah email kamu benar (ada `@`)?
+   Apakah konfirmasi sandinya cocok?
+ ❌ Kalau ada yang salah, kamu disuruh perbaiki dulu.
+ ✅ Kalau sudah benar semua, baru datamu disimpan.
+
+Begitu juga di React — kita buat form, cek isinya, lalu arahkan user ke halaman sukses bila valid.
